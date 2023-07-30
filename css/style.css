@@ -1,0 +1,63 @@
+:root {
+  --bg-color: #24353f;
+  --text-heading-color: #fff;
+}
+body {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+
+  color: var(--text-heading-color);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+.decoration {
+  text-decoration: none;
+  color: white;
+}
+.decoration:hover {
+  text-decoration: underline;
+}
+#content-user {
+  color: var(--text-heading-color);
+}
+#warning-message {
+  color: rgba(255, 0, 0, 0.721);
+}
+.Bshadow {
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.5);
+}
+.content {
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 20px rgba(0, 0, 0, 0.2);
+}
+.form-control {
+  box-shadow: none;
+  background-color: var(--bg-color);
+  color: white !important;
+  border-color: white;
+}
+
+.form-control::placeholder {
+  color: gray;
+}
+.btn:focus {
+  box-shadow: 0 0 2px 1px #0dcaf0a8;
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: var(--bg-color);
+}
